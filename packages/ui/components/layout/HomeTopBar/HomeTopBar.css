@@ -1,0 +1,11 @@
+.homeTopBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #141932;
+}
+
+.homeTopBar span {
+    cursor: pointer;
+    color: #14DCDC;
+}

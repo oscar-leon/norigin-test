@@ -1,0 +1,25 @@
+.asset {
+    color: #F0FAFF;
+    background: linear-gradient(to right, rgb(26, 32, 44), rgb(26, 32, 44));
+    font-size: 12px;
+    cursor: pointer;
+    height: 50%;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.asset:hover {
+    background: #14DCDC;
+}
+
+.asset.active {
+    background: #14DCDC;
+}
+
+.assetRange {
+    font-size: 10px;
+    color: gray;
+}

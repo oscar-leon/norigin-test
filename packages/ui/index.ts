@@ -1,6 +1,5 @@
-// utils
-export { setupCounter } from "./utils/counter";
-
 // components
-export { Header } from "./components/header";
-export { Counter } from "./components/counter";
+export * from "./components/epg";
+export * from "./components/layout";
+export { Home } from "./pages/home";
+export { Asset } from "./pages/asset";

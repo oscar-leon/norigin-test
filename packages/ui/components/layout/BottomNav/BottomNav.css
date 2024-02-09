@@ -1,0 +1,18 @@
+.bottomNav {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141932;
+}
+
+.bottomNav span {
+    cursor: pointer;
+    color: grey;
+}
+
+.bottomNav span.active {
+    color: #14DCDC;
+}

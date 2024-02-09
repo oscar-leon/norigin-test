@@ -1,0 +1,64 @@
+{
+  "slides": [
+    {
+      "id": "dummy_program_id",
+      "title": "Downtown Abbey",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/slide_downtown_abbey.jpg"
+      },
+      "channelId": "cw",
+      "channelTitle": "Comedy Central",
+      "start": "2018-10-26T00:00:00+02:00",
+      "end": "2018-10-26T23:59:00+02:00",
+      "catchupExpiration": "2018-10-28T00:00:00+02:00"
+    },
+    {
+      "id": "dummy_program_id",
+      "title": "Supernatural",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/slide_supernatural.jpg"
+      },
+      "channelId": "cw",
+      "channelTitle": "The CW",
+      "start": "2018-10-26T00:00:00+02:00",
+      "end": "2018-10-26T23:59:00+02:00",
+      "catchupExpiration": "2018-10-27T00:00:00+02:00"
+    },
+    {
+      "id": "dummy_program_id",
+      "title": "Vikings",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/slide_vikings.jpg"
+      },
+      "channelId": "history",
+      "channelTitle": "History",
+      "start": "2018-10-26T00:00:00+02:00",
+      "end": "2018-10-26T00:01:00+02:00",
+      "catchupExpiration": "2018-10-29T00:00:00+01:00"
+    },
+    {
+      "id": "dummy_program_id",
+      "title": "Big Bang Theory",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/slide_big_bang_theory.jpg"
+      },
+      "channelId": "cw",
+      "channelTitle": "CBS",
+      "start": "2018-10-26T00:00:00+02:00",
+      "end": "2018-10-26T00:01:00+02:00",
+      "catchupExpiration": "2018-10-29T00:00:00+01:00"
+    },
+    {
+      "id": "dummy_program_id",
+      "title": "Game of Thrones",
+      "images": {
+        "icon": "https://img.noriginmedia.com/cloudberry/slide_game_of_thrones.jpg"
+      },
+      "channelId": "hbo",
+      "channelTitle": "HBO",
+      "start": "2018-10-26T00:00:00+02:00",
+      "end": "2018-10-26T23:59:00+02:00",
+      "catchupExpiration": "2018-10-29T00:00:00+01:00"
+    }
+  ]
+}

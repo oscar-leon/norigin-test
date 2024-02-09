@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock-api": "npx osprey-mock-service -f demo.raml -p 8080 --cors",
+    "dev": "npm run mock-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "osprey-mock-service": "^1.0.0"
+  }
+}

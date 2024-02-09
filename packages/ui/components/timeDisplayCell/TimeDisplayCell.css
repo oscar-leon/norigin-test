@@ -1,0 +1,22 @@
+.timeContainer {
+    white-space: nowrap;
+    width: 1px;
+    color: gray;
+}
+
+.placeHolder {
+    width: 1px;
+}
+
+.currentTimeIndicator {
+    position: relative;
+}
+
+.currentTimeIndicator::after {
+    content: '';
+    background-color: #14DCDC;
+    position: absolute;
+    width: 1px;
+    display: block;
+    height: 82vh;
+}

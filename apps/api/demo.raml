@@ -1,0 +1,100 @@
+#%RAML 0.8
+title: "Norigin Media Mock API"
+
+/auth:
+  /anonymous:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/anonymous.json
+
+  /authenticate:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/authenticate.json
+
+/genres:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include examples/demo/genres.json
+
+/slides:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include examples/demo/slides.json
+
+/epg:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: !include examples/demo/epg.json
+
+/favoriteChannels/{userId}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/favorite_channels_user.json
+
+/channel:
+  /{channelId}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/channel-stream.json
+
+/catchup:
+  /{programId}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/program-stream.json
+
+/program:
+  /program_catchup_id:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/program_catchup.json
+  /program_live_id:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/program_live.json
+  /{programId}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/program_future.json
+
+  /progress/{userId}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include examples/demo/program_progress_user.json
